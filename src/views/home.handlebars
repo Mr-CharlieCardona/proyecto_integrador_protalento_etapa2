@@ -1,0 +1,16 @@
+<div class="cards-container">
+   {{#each cards}}
+   <div class="card">
+      <article class="card__article">
+         <div class="card__image-container">
+            <img src="{{img}}" alt="" class="card__image">
+         </div>
+         <div class="card__content">
+            <h2 class="card__heading">{{name}}</h2>
+            <p class="card__description">{{description}}</p>
+         </div>
+      </article>
+   </div>
+
+   {{/each}}
+</div>
